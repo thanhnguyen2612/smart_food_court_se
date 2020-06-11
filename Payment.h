@@ -31,7 +31,7 @@ public:
         if (discount > 0) {
             priceToPay = priceToPay * (1 - discount / 100);
         }
-        cout << "Pay " << priceToPay << "via mobile banking\n";
+        cout << "Pay " << priceToPay << "$ via mobile banking\n";
     }
 };
 
@@ -43,6 +43,6 @@ public:
         if (discount > 0) {
             priceToPay = priceToPay * (1 - discount / 100);
         }
-        cout << "Pay " << priceToPay << "in cash\n";
+        cout << "Pay " << priceToPay << "$ in cash\n";
     }
 };
